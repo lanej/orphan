@@ -2,10 +2,10 @@
 require File.expand_path('../lib/orphan/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Josh Lane"]
-  gem.email         = ["lane.joshlane@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["Josh Lane", "Andy Delcambre"]
+  gem.email         = ["jlane@engineyard.com", "adelcambre@engineyard.com"]
+  gem.description   = %q{Let your mock models get adopted by real ORMs}
+  gem.summary       = %q{}
   gem.homepage      = ""
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
