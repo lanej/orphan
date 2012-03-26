@@ -1,5 +1,9 @@
 require "orphan/version"
 
 module Orphan
-  # Your code goes here...
+  autoload :Resource, 'orphan/resource'
+
+  def self.mock=(mock)
+
+  end
 end
